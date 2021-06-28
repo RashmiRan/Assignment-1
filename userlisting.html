@@ -6,53 +6,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>USERLISTING</title>
 </head>
-<style>
 
-header {
-                list-style: none;
-                padding: 0;
-                display: flex;
-                flex-direction: row;
-                justify-content: space-evenly;
-                background-color: white;
-               
-               
-            }
+<style type="text/css">
+    header {
+        display: flex;
+        justify-content: space-between;
+    }
 
-       table {
-           
-           margin-left: auto;
-           margin-right: auto;
-           background-color: white;
-           border-collapse: collapse;
-        
-           
-             }
+    .contact-and-info {
+        display: flex;
+        align-items: center;
+    }
 
-             td, th {
-                 border: 1px solid;
-                 
-             }   
-             
+    table {
+        margin-left: auto;
+        margin-right: auto;
+        background-color: white;
+        border-collapse: collapse;        
+    }
 
-             body {
-                background-color: lightgray;
-            }
-            .ic {
-                float: right;
-
-            }
-
+    td, th {
+        border: 1px solid;
+    }
 </style>
-
 
 <body>
     <header>
-        <img src="/Users/ashishranjan/Desktop/assignment /ICON/ico_logo.png">
-        <h5><img src="/Users/ashishranjan/Desktop/assignment /ICON/ico_phone.png">1.877.729.4269</h5>
-        <img src="/Users/ashishranjan/Desktop/assignment /ICON/ico_new_notification.png">
-        <img src="/Users/ashishranjan/Desktop/assignment /ICON/selected_profile_img.png">
-        <img src="/Users/ashishranjan/Desktop/assignment /ICON/ico_login_dropdown.png">
+        <a href="/">
+            <img src="/Users/ashishranjan/Desktop/assignment /ICON/ico_logo.png">
+        </a>
+        <div class="contact-and-info">
+    
+            <h5>
+                <img src="/Users/ashishranjan/Desktop/assignment /ICON/ico_phone.png">
+                <span>1.877.729.4269</span>
+            </h5>
+            <span><img src="/Users/ashishranjan/Desktop/assignment /ICON/ico_new_notification.png"></span>
+            <div>
+                <span>
+                    <img src="/Users/ashishranjan/Desktop/assignment /ICON/selected_profile_img.png">
+                </span>
+                <span>
+                    <img src="/Users/ashishranjan/Desktop/assignment /ICON/ico_login_dropdown.png">
+                </span>
+            </div>
+        </div>
     </header>
 
     <main class="=parent">
@@ -70,8 +68,8 @@ header {
                 <th>PHONE NO</th>
             </tr>
              <tr>
-
-                 <td><img src="/Users/ashishranjan/Desktop/assignment /ICON/profile_img_01.png" height="10%" width="10%"></td>
+            
+                <td><img src="/Users/ashishranjan/Desktop/assignment /ICON/profile_img_01.png" height="10%" width="10%"></td>
                  <td>Heather Maehr</td>
                  <td>heather.maehr@name.com</td>
                  <td>(503) 509-6995</td>

@@ -14,14 +14,14 @@
             }
 
             header {
-                list-style: none;
-                padding: 0;
-                display: flex;
-                flex-direction: row;
-                justify-content: space-evenly;
-                background-color: white;
-                
+                 display: flex;
+                 justify-content: space-between;
             }
+
+            .contact-and-info {
+                 display: flex;
+                 align-items: center;
+           }
 
             .left{
                 width: 40%;
@@ -45,11 +45,25 @@
     </head>
     <body>
         <header>
-            <img src="/Users/ashishranjan/Desktop/assignment /ICON/ico_logo.png">
-            <h5><img src="/Users/ashishranjan/Desktop/assignment /ICON/ico_phone.png">1.877.729.4269</h5>
-            <img src="/Users/ashishranjan/Desktop/assignment /ICON/ico_new_notification.png">
-            <img src="/Users/ashishranjan/Desktop/assignment /ICON/selected_profile_img.png">
-            <img src="/Users/ashishranjan/Desktop/assignment /ICON/ico_login_dropdown.png">
+            <a href="/">
+                <img src="/Users/ashishranjan/Desktop/assignment /ICON/ico_logo.png">
+            </a>
+            <div class="contact-and-info">
+        
+                <h5>
+                    <img src="/Users/ashishranjan/Desktop/assignment /ICON/ico_phone.png">
+                    <span>1.877.729.4269</span>
+                </h5>
+                <span><img src="/Users/ashishranjan/Desktop/assignment /ICON/ico_new_notification.png"></span>
+                <div>
+                    <span>
+                        <img src="/Users/ashishranjan/Desktop/assignment /ICON/selected_profile_img.png">
+                    </span>
+                    <span>
+                        <img src="/Users/ashishranjan/Desktop/assignment /ICON/ico_login_dropdown.png">
+                    </span>
+                </div>
+            </div>
         </header>
     
 
