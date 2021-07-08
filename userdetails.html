@@ -5,92 +5,82 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>USERDETAILS</title>
-
-        <style>
-            
-
-            body {
-                background-color: lightgray;
-            }
-
-            header {
-                 display: flex;
-                 justify-content: space-between;
-            }
-
-            .contact-and-info {
-                 display: flex;
-                 align-items: center;
-           }
-
-            .left{
-                width: 40%;
-                height: 60%;
-                padding-left: 30px;
-                margin-left: 5px;
-                float: left;
-                background-color: white;
-            }
-
-            .right {
-                width: 60%;
-                height: 60%;
-                background-color: white;
-            
-            }
-
-         
-        </style>
-        
+        <link rel="stylesheet" href="userdetails.css"> 
     </head>
     <body>
         <header>
-            <a href="/">
-                <img src="/Users/ashishranjan/Desktop/assignment /ICON/ico_logo.png">
-            </a>
+            <a href="/"><img src="ICON/ico_logo.png"></a>
             <div class="contact-and-info">
-        
                 <h5>
-                    <img src="/Users/ashishranjan/Desktop/assignment /ICON/ico_phone.png">
+                    <img src="ICON/ico_phone.png">
                     <span>1.877.729.4269</span>
                 </h5>
-                <span><img src="/Users/ashishranjan/Desktop/assignment /ICON/ico_new_notification.png"></span>
+                <span><img src="ICON/ico_new_notification.png"></span>
                 <div>
                     <span>
-                        <img src="/Users/ashishranjan/Desktop/assignment /ICON/selected_profile_img.png">
+                        <img src="ICON/selected_profile_img.png">
                     </span>
                     <span>
-                        <img src="/Users/ashishranjan/Desktop/assignment /ICON/ico_login_dropdown.png">
+                        <img src="ICON/ico_login_dropdown.png">
                     </span>
                 </div>
             </div>
         </header>
-    
 
-        <main class="parent">
-            <aside class="left">
-                <h3>Details</h3>
-                <img src="/Users/ashishranjan/Desktop/assignment /ICON/profile_img_08.png">
-                <h2>Raria Hernandez</h2>  
-                <h6>San Francisco CA</h6>
-                <button>Hire Us</button>                                 
-            </aside>
+         <div class="parent">
+            <h4>Details</h4>
+            <div class="left">
+                    <img src="ICON/profile_img_08.png">
+                    <h2>Raria Hernandez</h2>  
+                    <div>San Francisco CA</div><br>
+                    <button class="button">Hire Us</button> 
+            </div>
             
-            <article class="right">    
-                <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam libero fugit eaque ad enim rerum, dignissimos nemo alias vero. Facere quisquam, cupiditate amet aspernatur quadolore? Voluptatibus perspiciatis impedit hic?</P>
-                <h5>SKILLS</h5>
-                <button input type="button" value="">brand guidlines</button>
-                <button input type="button" value="">brand identity</button>
-                <button input type="button" value="">front-end development</button>
-                <button input type="button" value="">logo</button>
-                <button input type="button" value="">brand identity</button><br><br>
+            <div class="right">
+                <div class="em">
+                    <div class="ad">
+                        <span class="details">EMAIL ADDRESS</span>
+                        <span>rariahernandez@name.com</span>
+                    </div>
+                    <img src="ICON/ico_edit.png">
+                </div><br>
+                <div class="em">
+                    <div class="ad">
+                        <span>PHONE NO.</span>
+                        <span>(503) 509-6995</span>
+                    </div>
+                    <img src="ICON/ico_edit.png">
+                </div><br>
+                <div class="em">
+                    <div class="ad">
+                        <span>ABOUT</span>
+                        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur dolorum nihil nam labore, hic dolore. Nam quas adipisci voluptatum distinctio accusantium enim nihil quibusdam velit, ex deleniti, tempora ut numquam?</span>
+                     </div>
+                     <img src="ICON/ico_edit.png">
+                </div><br> 
+                <div class="em">
+                    <div class="ad">
+                        <span>SKILLS</span>
+                        <span>
+                            <button input type="button" value="">brand guidlines</button>
+                            <button input type="button" value="">brand identity</button>
+                            <button input type="button" value="">front-end development</button>
+                            <button input type="button" value="">logo</button>
+                            <button input type="button" value="">brand identity</button>
+                            <button input type="button" value="">front-end development</button>
+                            <button input type="button" value="">logo</button>
+                            <button input type="button" value="">brand identity</button>
+                        </span>
+                    </div>
+                        <img src="ICON/ico_edit.png">
+                </div>
+            </div>
+        </div>
 
-                <button input type="button" value="">front-end development</button>
-                <button input type="button" value="">logo</button>
-                <button input type="button" value="">brand identity</button>
-            </article>
-        </main>
+        <footer  class="footer">
+            <p>Copyright &copy 2013-2020</p>
+        </footer> 
     
-        <footer>Copyright &copy 2013-2020</footer>  
+       
     </body>
 </html>

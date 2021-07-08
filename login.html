@@ -5,78 +5,72 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>LOGIN</title>
-
-    <style>
-        login {   
-            height: 20%;
-            width: 20%;
-        }
-
-        header {
-        display: flex;
-        justify-content: space-between;
-             }
-
-            .contact-and-info {
-                 display: flex;
-                 align-items: center;
-             }
-            body {
-                background-color: lightgray;
-            }
-
-             .left
-             {
-                 padding-left: 25px;
-                 margin-left: 25px;
-                 float: left;
-                 background-color: white;
-             }
-
-             .right {
-                 
-                 display: flex;
-                 justify-items: right;
-                 background-color: white;
-                    }
-
-             
-    </style>
-
-   
+    <link rel="stylesheet" href="login.css">
 </head>
 <body>
     <header>
-        <a href="/">
-            <img src="/Users/ashishranjan/Desktop/assignment /ICON/ico_logo.png">
-        </a>
+        <a href="/"><img src="ICON/ico_logo.png"></a>
         <div class="contact-and-info">
-    
-            <h5>
-               <a href="/"><img src="/Users/ashishranjan/Desktop/assignment /ICON/ico_phone.png"></a>
+           <h5>
+                <a href="/"><img src="ICON/ico_phone.png"></a>
                 <span>1.877.729.4269</span>
-                <span>Don't have an account <a href="/">SIGN UP</a></span>
+                <span>
+                  Don't have an account<a href="/">SIGN UP</a>
+                </span>
             </h5>
+        </div>
     </header>
 
-    <main class="parent">
-        <aside class="left">
-            <h4><b>WELCOME DESIGN CLUB!</b></h4>
-            <h5>Enter your username and password to continue</h5>
-            <input type="text" placeholder="Username"><br>
-            <input type="password" placeholder="Password"><br>
-            <input type="checkbox">Remember me &nbsp;&nbsp;
-            <a href="/">Forgot Password?</a><br>
-            <button type="submit">LOGIN </button>
-            <h5>Don't have an account <a href="/">SIGN UP</a></h5>
-        </aside>
+    <div class="parent">
+        <div class="left">
+            <h4><b>Welcome Design Club!</b></h4>
+            <h6>Enter your username and password to continue</h6>
+            <input  style="width: 220px;"  type="text" placeholder="Username"><br>
+            <input style="width: 220px;"  type="password" placeholder="Password">
+           <div class="myDiv" title="Password Tips
+             Password must have
+             8 Characters or more
+             Alphanumric
+             Upper case letter(s)
+             Lower case letters(s)">
+              <img src="ICON/ico_login_password_info_select.png">
+            </div>
+           <!--<div class="hide">
+                <h5><b>Password Tips</b></h5>
+                <h5> Password must have</h5>
+                
+                <ul>
+                    <li>8 Characters or more</li>
+                    <li>Alphanumric</li>
+                    <li>Uppser case letter(s)</li>
+                    <li>Lower case letters(s)</li>
+
+                </ul>
+                   
+            </div> -->
+           
+            <input type="checkbox">Remember me
+            <a href="/">Forgot password?</a><br>
+            
+            <button class="loginbutton" type="submit">LOGIN </button>
+            <h5>Don't have an account?<a href="/">SIGN UP</a></h5>
+        </div>
        
-        <article class="right">
-        <a href="/"><img class="login"  src="/Users/ashishranjan/Desktop/assignment /ICON/bg_login.png"></a>
-        <a href="/"><img class="desktop" src="/Users/ashishranjan/Desktop/assignment /ICON/ico_mac.png"></a>
-        </artic e>
-     </main>
+        <div class="right">
+           <div class="img1"> 
+               <a href="/"><img class="login" src="ICON/bg_login.png"></a>
+           </div> 
+
+           <div class="img2">
+            <a href="/"><img class="desktop" src="ICON/ico_mac.png"></a>
+           </div>
+        </div>
+
+        <footer class="footer">
+            <p>Copyright &copy 2013-2020</p>
+        </footer>
+
+    </div>
      
-     <footer>Copyright &copy 2013-2020</footer>  
-</body>
+   </body>
 </html>

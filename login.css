@@ -1,0 +1,97 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    margin-top: -9px;
+     margin-left: -7px;
+    margin-right: -7px;
+    height: 40px;
+
+}
+
+.contact-and-info {
+         display: flex;
+         align-items: center;
+}
+body {
+        background-color: lightgray;
+             }
+.parent {
+    position:relative;
+   
+    margin-top: 35px;
+    margin-left: 180px;
+    margin-right: 80px;
+ }
+
+.left
+     {
+         padding-left: 25px;
+         margin-left: 25px;
+         float: left;
+         background-color: white;
+         height: 320px;
+         width: 274px;
+         padding-top: 64px;
+         
+     }
+
+.right {
+         
+         display: flex;
+         justify-items: right;
+         height: 300px;
+         width: 600px;
+         
+} 
+.img1 
+        {
+        height: 500px;
+        width: 500px;
+}
+.login {
+        height: 386px;
+        width: 500px;
+
+ }
+.img2 {
+        position: absolute;
+        top: 18px;
+        left: 382px;
+          
+}
+.desktop {
+    height: 350px;
+    width: 400px;
+}
+.loginbutton {
+        height: 30px;
+        width: 222px;
+        background-color: lightskyblue;
+}
+.hide {
+         display: none;
+}
+.myDiv:hover + .hide {
+        display: block;
+        border: solid;
+        border-color: white;
+        cursor: pointer;
+        background-color: white;
+       
+            
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 10px;
+    text-align: center;
+    width: 100%;
+
+}
+.myDiv {
+        margin-top: -20px;
+        margin-left: 224px;
+        background-color: white;
+}
+   
