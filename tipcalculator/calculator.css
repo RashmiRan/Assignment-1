@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    background-color: gray;
+    width: 400px;margin: auto;
+    
+}
+.div{
+    margin-top: 50px;
+    width: 200px;
+    background-color: light yellow;
+    padding: 50px;
+}
+button {
+    border-radius: 5px;
+    width: 150px;
+    color: light blue;
+    
+}
+#tip_perc {
+    width: 150px;
+}
+body 
+{
+    background-color: light blue;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator.css" />
+    <script src="calculator.js"></script>
+  </head>
+  <body>
+    <main>
+      <form type="submit">
+        <div class="div">
+          <div>
+            <label>Bill Amount</label>
+            <input type="text" id="bill_amount" required />
+          </div>
+
+          <div>
+            <label>No Of Pax</label>
+            <input type="text" id="paxx_no" required />
+          </div>
+
+          <div>
+            <label>Tip Percentage</label>
+            <select id="tip_perc">
+              <option value="5">5</option>
+              <option value="10">10</option>
+              <option value="15">15</option>
+            </select>
+          </div>
+
+          <div>
+            <label>Tip Amount</label>
+            <input type="text" id="tip_total" disabled />
+          </div>
+
+          <div>
+            <label>Per Person Share</label>
+            <input type="text" id="total_bill" disabled />
+          </div>
+
+          <button onclick="tipcal()">Submit</button>
+        </div>
+      </form>
+    </main>
+  </body>
+</html>
