@@ -1,0 +1,17 @@
+#container {
+  width: 200px;
+  padding: 50px;
+  margin-top: 200px;
+  margin-left: 400px;
+  margin-right: 300px;
+  border: 1px solid black;
+  text-decoration: bold;
+  text-align: center;
+  text-decoration: black;
+}
+button {
+  background-color: lightblue;
+  height: 40px;
+  width: 60px;
+  border-radius: 2px;
+}
